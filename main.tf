@@ -1,9 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  #access_key = "AKIAY44WUPKKJNTJKSZ7"
-  #access_key = var.acc_key
-  #secret_key = "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"
-  #secret_key = var.sec_key
+   #access_key = var.acc_key
+   #secret_key = var.sec_key
 }
 variable "tags" {
   default = ""
